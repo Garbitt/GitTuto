@@ -1,3 +1,4 @@
 /test_unitaire/*.csv
 /test_unitaire/results/*.csv
 /venv/
+/.idea
