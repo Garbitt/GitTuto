@@ -3,7 +3,7 @@ import argparse
 from addition import add
 from multiplication import mult
 
-parser = argparse.ArgumentParser("Operator x^2+y+xy")
+parser = argparse.ArgumentParser("Operator x^2+y+xy Propriété de la Corp")
 parser.add_argument("--x", dest="x", help="The first integer used in the operation", type=int)
 parser.add_argument("--y", dest="y", help="The second integer used in the operation", type=int)
 args = parser.parse_args()
