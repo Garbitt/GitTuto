@@ -6,6 +6,7 @@ def mult(x: int, y: int) -> int:
     :param y:
     :return:
     """
+    print('Ce message implique le multiplication est lancée')
     return x*y
 
 
