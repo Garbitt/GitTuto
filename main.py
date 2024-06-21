@@ -10,12 +10,6 @@ args = parser.parse_args()
 
 
 def calculate(x: int = args.x, y: int = args.y) -> int:
-    '''
-    Fonction qui permet de calculer l'opération
-    :param x:
-    :param y:
-    :return:
-    '''
     return add(add(mult(x, x), y), mult(x, y))
 
 
