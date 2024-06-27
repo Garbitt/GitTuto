@@ -14,4 +14,5 @@ def calculate(x: int = args.x, y: int = args.y) -> int:
 
 
 if __name__ == '__main__':
+    print("Ajout du conflit de Rodrigue")
     print(calculate())
