@@ -12,7 +12,7 @@ args = parser.parse_args()
 def calculate(x: int = args.x, y: int = args.y) -> int:
     return add(add(mult(x, x), y), mult(x, y))
 
-
+# Mathis : kikoo ça va ?
 if __name__ == '__main__':
     print("Ajout du conflit de Rodrigue")
     print(calculate())
